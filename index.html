@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berinov portfolio</title>
+  </head>
+  
+  <body>
+    
+    <div class="header">
+      <p style="font-size: 40px;">BERIN ŠURKOVIĆ</p> 
+
+      <div class="line-1"></div>
+      
+      <div class="main">
+        <p style="font-size: 16px;">Rođen sam u Sarajevu 2003. godine. 
+          Učenik sam Treće gimnazije i trenutno pohađam 4. razred. 
+          Opredijelio sam se za IT smjer jer se na njemu obrađuju teme koje su me oduvijek zanimale.
+          Pored informacionih tehnologija, veliki sam ljubitelj filma. Iz ovog razloga, ova web stranica je posvećena mojim najdražim filmovima.</p>
+
+          <div class="line-3"></div>
+          <!-- Navigation bar -->
+          <div>
+            <ul class="ul">
+              <li class="li"><a class="active" href="index.html">Home</a></li>              
+              <li class="li"><a href="contact.html">Kontakt</a></li>
+              <li class="li"><a href="about.html">About</a></li>
+              <li class="li"><a href="links.html">Links</a></li>
+            </ul>
+          </div>
+      </div>
+
+    </div>
+    
+    <article class="gridLayout">
+      <!-- Back to the future II -->
+      <div class="gallery">
+        <a  target=”_blank” href="https://www.imdb.com/title/tt0096874/">
+          <img src="Images/40 - sZHCQ7r.jpg" alt="Back to the future part II" >
+        </a>      
+        <div class="description">Back to the Future II (1989)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- Watchmen -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0409459/?ref_=nv_sr_srsg_0">
+          <img src="Images/451 - 6q5TwnU.jpg" alt="Watchmen"  >
+        </a>      
+        <div class="description">Watchmen (2009)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- Inglourious Basterds -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0361748/?ref_=nv_sr_srsg_5">
+          <img src="Images/205 - CWgCoey.jpg" alt="Inglourious Basterds"  >
+        </a>      
+        <div class="description">Inglourious Basterds (2009)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- Scream -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0117571/?ref_=tt_sims_tt_i_2">
+          <img src="Images/357 - ZDx4NiE.jpg" alt="Scream"  >
+        </a>      
+        <div class="description">Scream (1996)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- The Dark Knight -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0468569/?ref_=nv_sr_srsg_1">
+          <img src="Images/The Dark Knight joker poster.jpg" alt="The Dark Knight"  >
+        </a>      
+        <div class="description">The Dark Knight (2008)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- The Grand Budapest Hotel -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt2278388/?ref_=nv_sr_srsg_0">
+          <img src="Images/164 - 5L12Uyn.jpg" alt="The Grand Budapest Hotel" >
+        </a>      
+        <div class="description">The Grand Budapest Hote (2014)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- Empire Strikes back -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0080684/?ref_=nv_sr_srsg_0">
+          <img src="Images/400 - Nk6tHd3.jpg" alt="Empire Strikes Back" >
+        </a>      
+        <div class="description">Empire Strikes Back (1980)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- Wall-E -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0910970/?ref_=nv_sr_srsg_3">
+          <img src="Images/449 - tFaNnxT.jpg" alt="Wall-E" >
+        </a>      
+        <div class="description">Wall-E (2008)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- Halloween -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0077651/?ref_=nv_sr_srsg_4">
+          <img src="Images/172 - 4h6UCEe.jpg" alt="Halloween" >
+        </a>      
+        <div class="description">Halloween (1978)<div class="line-2"></div></div>  
+      </div>
+
+      <!-- Spider-Man 2 -->
+      <div class="gallery">
+        <a target=”_blank” href="https://www.imdb.com/title/tt0316654/?ref_=nv_sr_srsg_0">
+          <img src="Images/Spider-man 2 poster.jpg" alt="Spider-Man 2" >
+        </a>      
+        <div class="description">Spider-Man 2 (2004)<div class="line-2"></div></div>  
+      </div>
+
+
+    </article>
+
+    <div class="divform">
+      <form class="form">
+          <label for="name" class="label">Ime:</label><br>
+          <input name="name" id="name" required>
+          <br>          
+          <label for="email">E-Mail:</label><br>
+          <input type="email" id="email" name="email" required placeholder="myemail@gmail.com">
+          <br>    
+          <label for="textArea" class="label">Vaša poruka:</label>
+          <br>
+          <textarea name="textarea" cols="40" rows="10" style="border: 5px solid #4670ee;" maxlength="500" required></textarea>
+          <br>
+          <button type="reset" class="button">Reset</button>
+          <button type="submit"class="button">Submit</button>
+      </form>
+    </div>
+    <br>
+
+    <div class="divform" >
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <br>
+      
+    
+  </body>
+</html>
